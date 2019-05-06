@@ -1,0 +1,27 @@
+{
+  "name": "social-icon",
+  "version": "1.0.0",
+  "description": "Web component to create social icons, based on LitElement",
+  "main": "social-icon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polydile/social-icon.git"
+  },
+  "keywords": [
+    "webcomponents",
+    "litelement",
+    "javascript"
+  ],
+  "author": "@EscuelaIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Polydile/social-icon/issues"
+  },
+  "homepage": "https://github.com/Polydile/social-icon#readme",
+  "dependencies": {
+    "lit-element": "^2.1.0"
+  }
+}
