@@ -1,6 +1,6 @@
 {
   "name": "social-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web component to create social icons, based on LitElement",
   "main": "dile-social-icon.js",
   "scripts": {
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Polydile/social-icon#readme",
   "dependencies": {
     "lit-element": "^2.1.0"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.10"
   }
 }
