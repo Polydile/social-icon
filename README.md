@@ -28,4 +28,4 @@ You can customize the icon styles using CSS Custom Styles.
 Custom property | Description | Default
 ----------------|-------------|---------
 --dile-social-icon-color | Icon color | #888
---dile-social-icon-size | Icon size (width = height) | #24px
+--dile-social-icon-size | Icon size (width = height) | 24px
