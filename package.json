@@ -1,10 +1,13 @@
 {
   "name": "social-icon",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Web component to create social icons, based on LitElement",
   "main": "dile-social-icon.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "site:build": "npm run storybook:build",
+    "storybook": "start-storybook -p 9001",
+    "storybook:build": "build-storybook -o _site -s storybook-static"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,7 @@
     "lit-element": "^2.1.0"
   },
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "^2.2.10"
+    "@webcomponents/webcomponentsjs": "^2.2.10",
+    "@open-wc/demoing-storybook": "^0.2.0"
   }
 }

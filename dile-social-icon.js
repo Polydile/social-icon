@@ -13,7 +13,7 @@ import { icons } from './icons';
  */
 
 
-class DileSocialIcon extends LitElement {
+export class DileSocialIcon extends LitElement {
   
   static get properties() {
     return { 
