@@ -6,6 +6,8 @@ Web component to display social icons, based on LitElement.
 <dile-social-icon icon="facebook"></dile-social-icon>
 ```
 
+Go to [DEMO page](https://dile-social-icon.polydile.com)!
+
 ## Icons available
 
 The icon property accepts the social icons listed bellow:
