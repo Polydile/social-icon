@@ -22,11 +22,11 @@ npm i social-icon
 
 3) Use the web component
 
-```
+```html
 <dile-social-icon icon="facebook"></dile-social-icon>
 ```
 
-The icon property is used to set the icon you want to show. There are icons from the main social networks and services.
+The icon property is used to set the icon you want to show. There are icons from the main social networks and services. 
 
 ## Icons available
 
@@ -43,6 +43,8 @@ The icon property accepts the social icons listed bellow:
 - gmail
 - snapchat
 - github
+
+Note that the name of the icon is allways in lowercase.
 
 ## Custom styles
 
