@@ -5,6 +5,7 @@
   "main": "dile-social-icon.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "site:build": "npm run storybook:build",
     "storybook": "start-storybook -p 9001",
     "storybook:build": "build-storybook -o _site -s storybook-static"
@@ -29,6 +30,7 @@
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "^2.2.10",
-    "@open-wc/demoing-storybook": "^0.2.0"
+    "@open-wc/demoing-storybook": "^0.2.0",
+    "es-dev-server": "^1.5.0"
   }
 }

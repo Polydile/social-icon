@@ -22,6 +22,7 @@ storiesOf('dile-social-icon', module)
         <dile-social-icon icon="instagram"></dile-social-icon>
         <dile-social-icon icon="gmail"></dile-social-icon>
         <dile-social-icon icon="snapchat"></dile-social-icon>
+        <dile-social-icon icon="github"></dile-social-icon>
       </p>
       `,
   )
@@ -37,47 +38,51 @@ storiesOf('dile-social-icon', module)
           flex-wrap: wrap;
         }
         div.icons p {
-          margin-right: 10px;
+          margin-right: 19px;
         }
         .facebook {
           --dile-social-icon-color: #3A5CA9;
-          --dile-social-icon-size: 20px;
+          --dile-social-icon-size: 29px;
         }
         .google {
           --dile-social-icon-color: crimson;
-          --dile-social-icon-size: 30px;
+          --dile-social-icon-size: 39px;
         }
         .twitter {
           --dile-social-icon-color: deepskyblue;
-          --dile-social-icon-size: 40px;
+          --dile-social-icon-size: 49px;
         }
         .pinterest {
           --dile-social-icon-color: #E20020;
-          --dile-social-icon-size: 60px;
+          --dile-social-icon-size: 69px;
         }
         .linkedin {
           --dile-social-icon-color: #006CAC;
-          --dile-social-icon-size: 50px;
+          --dile-social-icon-size: 59px;
         }
         .youtube {
           --dile-social-icon-color: #FF0004;
-          --dile-social-icon-size: 50px;
+          --dile-social-icon-size: 59px;
         }
         .whatsapp {
           --dile-social-icon-color: #07E26B;
-          --dile-social-icon-size: 60px;
+          --dile-social-icon-size: 69px;
         }
         .instagram {
           --dile-social-icon-color: #3A5CA9;
-          --dile-social-icon-size: 40px;
+          --dile-social-icon-size: 49px;
         }
         .gmail {
           --dile-social-icon-color: #B93125;
-          --dile-social-icon-size: 30px;
+          --dile-social-icon-size: 39px;
         }
         .snapchat {
           --dile-social-icon-color: rgb(255, 230, 0);
-          --dile-social-icon-size: 20px;
+          --dile-social-icon-size: 49px;
+        }
+        .github {
+          --dile-social-icon-color: rgb(43, 43, 43);
+          --dile-social-icon-size: 59px;
         }
       </style>
       <h1>Styled Social Icons</h1>
@@ -111,6 +116,9 @@ storiesOf('dile-social-icon', module)
         </p>
         <p>
           <dile-social-icon icon="snapchat" class="snapchat"></dile-social-icon>
+        </p>
+        <p>
+          <dile-social-icon icon="github" class="github"></dile-social-icon>
         </p>
       </div>
         `,
