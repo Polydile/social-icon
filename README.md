@@ -16,7 +16,7 @@ npm i social-icon
 
 ```html
 <script type="module">
-  import 'dile-spinner/dile-spinner.js';
+  import 'social-icon/dile-social-icon.js';
 </script>
 ```
 
