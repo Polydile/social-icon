@@ -1,3 +1,7 @@
+# Moved
+
+**This package has moved** and is now available at [@dile/dile-social-icon](https://github.com/Polydile/dile-components). Please update your dependencies. This repository is no longer maintained.
+
 # dile-social-icon
 
 Web component to display icons from the main social networks and communities, based on LitElement.
