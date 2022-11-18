@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "^2.2.10",
-    "@open-wc/demoing-storybook": "^0.2.0",
+    "@open-wc/demoing-storybook": "^2.4.7",
     "es-dev-server": "^1.5.0"
   }
 }
